@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 VPC Module
 This module is developed for roboshop company. Projects utilize this module to create their VPC.
 
@@ -13,4 +10,4 @@ Inputs
 
 Outputs
   vpc_id - Exports VPC ID created
->>>>>>> d1a55a3 (vpc module Started)
+
