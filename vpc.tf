@@ -48,6 +48,7 @@ resource "aws_subnet" "public" {
    az_names = slice(data.aws_availability_zones.available.names, 0, 2)
    but for better readability we utilised locals */
   availability_zone = local.az_names[count.index]
+  map_public_ip_on_launch = true
   tags = merge(
     var.public_subnet_tags,
     local.common_tags,
